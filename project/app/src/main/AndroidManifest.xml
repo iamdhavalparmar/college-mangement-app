@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dhaval.project">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/my"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/my"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".login"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+        </activity>
+        <activity
+            android:name=".faculty.Attendance_take"
+            android:label="Attendance"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.principal_dashboard"
+            android:label="Dashnoard"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".principal.p_atd"
+            android:label="Attendance"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.P_facatd"
+            android:label="Faculty Attendance"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_ntatd"
+            android:label="Non-Tech Attendance"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_stdatd"
+            android:label="Student Attendance"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_progress"
+            android:label="Progress"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+
+        </activity>
+        <activity
+            android:name=".principal.p_prog1"
+            android:label="Sem 1"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"/>
+        <activity
+            android:name=".principal.p_prog2"
+            android:label="Sem 2 "
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_prog3"
+            android:label="Sem 3"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_result"
+            android:label="Result"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_res1"
+            android:label="Sem 1"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_res2"
+            android:label="Sem 2"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_res3"
+            android:label="Sem 3"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_complaint"
+            android:label="Complaints"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_feedback"
+            android:label="Feedbacks"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_leave"
+            android:label="Approve Leaves"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".principal.p_exam"
+            android:label="Exam"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_examschd"
+            android:label="Exam Scehdule"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".principal.p_examseat"
+            android:label="Seating Arrangment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.student_dashboard"
+            android:label="Dashboard"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".student.s_timetable"
+            android:label="Time Table"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_holiday"
+            android:label="Holidays"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_exam"
+            android:label="Exam"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_examschedule"
+            android:label="Exam Schedule"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_seating"
+            android:label="Seating Arrangment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_result"
+            android:label="Result"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_assignment"
+            android:label="Assignment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_viewassi"
+            android:label="View Assignment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_uploadassi"
+            android:label="Upload Assignment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_assistatus"
+            android:label="Status"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_syllabus"
+            android:label="Syllabus"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_attendance"
+            android:label="Attendance"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".student.s_complaint"
+            android:label="Complaint"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".student.s_floatingcomplaint" />
+        <activity
+            android:name=".student.s_leave"
+            android:label="Leave"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.faculty_dashboard"
+            android:label="Dashboard"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".faculty.f_assignment"
+            android:label="Assignment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_viewassignment"
+            android:label="Upload Assignment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_checkassignment"
+            android:label="Check Assignment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_addassignemntfloating"
+            android:theme="@style/AppTheme.popup" />
+        <activity
+            android:name=".faculty.f_examdetails"
+            android:label="Exam"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_examschedule"
+            android:label="Exam Schedule"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_seatingarra"
+            android:label="Seating Arrangment"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_result"
+            android:label="Result"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_sylllabus"
+            android:label="Syllabus"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_leave"
+            android:label="Leave"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_progress"
+            android:label="Syllabus Progress"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.admin_dashboard"
+            android:label="Dashboard"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".admin.a_managestudent"
+            android:label="Student"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_managestu1"
+            android:label="Sem 1"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_managestu2"
+            android:label="Sem 2"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_managestu3"
+            android:label="Sem 3"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_managefac"
+            android:label="Faculty"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_managestaff"
+            android:label="Staff"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_manageplacement"
+            android:label="Placement"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_exammangement"
+            android:label="Exam Management"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_uploadschedule"
+            android:label="Upload Schedule"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_uploadseating"
+            android:label="Upload Seating"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_uploadresult"
+            android:label="Upload Result"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_staffattendance"
+            android:label="Staff Attendance"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_solvecomplaint"
+            android:label="Solve Compalint"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_approveleave"
+            android:label="Approve Leave"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_faclist"
+            android:label="Faculty"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_floatingschedule"
+            android:theme="@style/AppTheme.popup" />
+        <activity
+            android:name=".admin.a_examseatingfloating"
+            android:theme="@style/AppTheme.popup" />
+        <activity
+            android:name=".admin.a_resultfloating"
+            android:theme="@style/AppTheme.popup" />
+        <activity
+            android:name=".admin.a_shardetails"
+            android:label="Share Details"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".admin.a_sharefloating"
+            android:theme="@style/AppTheme.popup" />
+        <activity
+            android:name=".admin.a_timetable"
+            android:label="Time Table"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_floatingleave"
+            android:theme="@style/AppTheme.popup" />
+        <activity
+            android:name=".faculty.f_manage_profile"
+            android:label="Manage Profile"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_contact_us"
+            android:label="Contact Us"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".faculty.f_about_us"
+            android:label="About Us"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".principal.p_progresssem"
+            android:label="Subject"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name=".principal.p_progresspiechartmain"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

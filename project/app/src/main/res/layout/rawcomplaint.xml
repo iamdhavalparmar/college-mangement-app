@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="257dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="42dp"
+        android:text="TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="74dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/name"
+        android:layout_marginEnd="12dp"
+        android:text="TextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="338dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="114dp"
+        android:text="TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+</RelativeLayout>

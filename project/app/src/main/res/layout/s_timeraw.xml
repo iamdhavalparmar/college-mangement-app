@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:elevation="4dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivmain"
+            android:layout_width="80dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/tvmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/ivmain"
+            android:text="TimeTable"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvmain"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/ivmain"
+            android:text="Description"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvclick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Here"
+            android:textSize="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_below="@+id/description"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.a_managestudent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:elevation="3dp"
+            app:contentPadding="4dp"
+            android:foreground="?selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="student1"
+            app:cardBackgroundColor="#aaf53f07">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_toRightOf="@+id/a_fac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Semester  1"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:elevation="3dp"
+            app:contentPadding="4dp"
+            android:foreground="?selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="student2"
+            app:cardBackgroundColor="#f4138eba">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_toRightOf="@+id/a_nt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Semester  3"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:elevation="3dp"
+            app:contentPadding="4dp"
+            android:foreground="?selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:onClick="student3"
+            app:cardBackgroundColor="#aae20ab7">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_toRightOf="@+id/a_std"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Semester  5"
+                    android:fontFamily="@font/roboto"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:gravity="center"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

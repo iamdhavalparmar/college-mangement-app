@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "882086591741",
+    "firebase_url": "https://project-dhaval.firebaseio.com",
+    "project_id": "project-dhaval",
+    "storage_bucket": "project-dhaval.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882086591741:android:106f451253f0360f",
+        "android_client_info": {
+          "package_name": "com.example.dhaval.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882086591741-4tshmrc6egh1so1bcoucaj93ndm8op5b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhaval.project",
+            "certificate_hash": "a8756d492afe18c17b92166036ff3c8e876049eb"
+          }
+        },
+        {
+          "client_id": "882086591741-r366q8ksgd73vhkf00efu3tu3kk7g3lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBovTsdmkr7sJkDO-zf5cbpdFWs2KV5FfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882086591741-r366q8ksgd73vhkf00efu3tu3kk7g3lt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

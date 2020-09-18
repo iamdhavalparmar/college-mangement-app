@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="name">Attendance</string>
+    <string name="f">FacultyAttendance</string>
+    <string name="title_activity_faculty_dashboard">faculty_dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_f_navigation">f_navigation</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="sem">
+        <item>Sem 2</item>
+        <item>Sem 4</item>
+        <item>Sem 6</item>
+    </string-array>
+    <string-array name="sem2">
+        <item>Advance C</item>
+        <item>DHTML</item>
+        <item>DBMS</item>
+        <item>MATHS</item>
+    </string-array>
+    <string-array name="sem4">
+        <item>DBMS</item>
+        <item>JAVA</item>
+        <item>VB.NET</item>
+        <item>OOAD</item>
+    </string-array>
+    <string-array name="sem6">
+        <item>ASP.NET</item>
+        <item>DBA</item>
+        <item>MULTIMEDIA</item>
+    </string-array>
+    <string name="principal">
+        Princiapl will view all the progress and track everything from the single app , No need to rush to see what"'"s going on in college
+    </string>
+    <string name="faculty">
+        Faculty will pass the importants notes and other things to the student can track the student progress
+    </string>
+    <string name="student">
+        Student will get all the information and updated eveyrday
+    </string>
+    <string name="admin">
+        Admin will manage the whole application with built in features and it"'s" very easy to do all this stuff
+    </string>
+</resources>

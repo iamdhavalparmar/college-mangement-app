@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#aab221c9"
+        android:foregroundGravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11/12/13"
+                    android:textSize="20sp"
+                    android:layout_margin="8dp"
+                    android:id="@+id/tvdate"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Due to some work"
+                    android:textSize="15sp"
+                    android:layout_margin="8dp"
+                    android:id="@+id/tvreason"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
